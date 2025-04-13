@@ -1,0 +1,1 @@
+import{j as s}from"./react-BhSE-Csv.js";const e=()=>s.jsx("div",{className:"min-h-screen bg-gray-100",children:s.jsx("div",{className:"h-[600px] w-full relative",children:s.jsx("div",{className:"absolute inset-0 bg-gray-200"})})});export{e as P};
