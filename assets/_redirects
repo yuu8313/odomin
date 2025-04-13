@@ -1,4 +1,7 @@
-/    /index.html   200
+# 静的アセットはそのままに
+/assets/* /assets/:splat 200
+/*.js /:splat 200
+/*.css /:splat 200
 
-# 404ページの設定
-/*    /index.html   404
+# それ以外のルートは index.html へ
+/* /index.html 200
